@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>CrabLegs</title>
+	<link rel="icon" href="favicon.png" type="image/png">
+
+  <link rel="stylesheet" href="vendors/bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="vendors/fontawesome/css/all.min.css">
+  <link rel="stylesheet" href="themify-icons/themify-icons.css">
+  <link rel="stylesheet" href="vendors/linericon/style.css">
+  <link rel="stylesheet" href="vendors/owl-carousel/owl.theme.default.min.css">
+  <link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Rajdhani&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://js.stripe.com/v3"></script>
+  <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/08553c54386c265197d97b512/189caa2054ea1dc2aa2d7dbe8.js");</script>
+  
+
+</head>
+<body>
+  <!--================Header Menu Area =================-->
+  <header class="header_area">
+    <div class="main_menu">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container box_1620">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <a class="navbar-brand logo_h" href="index.html" style="font-family: 'Rajdhani', sans-serif;color: azure; font-size:30px;font-weight:700;line-height:1.2;">CrabLegs</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+      
+          <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+            <ul class="nav navbar-nav menu_nav justify-content-end">
+              <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li> 
+              <li class="nav-item"><a class="nav-link" href="#about">About</a></li> 
+              <li class="nav-item"><a class="nav-link" href="#pricing">Pricing</a>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                <li class="nav-item"><a class="nav-link" href="https://crablegs.herokuapp.com">Subscriber Sign In</a>
+							</li>
+            </ul>
+
+            <ul class="navbar-right">
+              <li class="nav-item">
+                <button
+  style="background-color:#6772E5;color:#FFF;padding:8px 12px;border:0;border-radius:4px;font-size:1em;"
+  id="checkout-button-plan_FpjQtRPHdKdbt5"
+  role="link"
+  class="button button-header bg"
+>
+SIGN UP
+</button>
+
+<div id="error-message"></div>
+              </li>
+            </ul>
+          </div> 
+        </div>
+      </nav>
+    </div>
+  </header>
+  <!--================Header Menu Area =================-->
+
+
+  <main class="side-main">
+    <!--================ Hero sm Banner start =================-->      
+    <section class="hero-banner mb-30px">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-7">
+            <div class="hero-banner__img">
+              <img class="img-fluid" src="img/banner/hero-banner.png" alt="">
+            </div>
+          </div>
+          <div class="col-lg-5 pt-5">
+            <div class="hero-banner__content">
+              <h1>Expense Management. Simplified.</h1>
+              <p>Do you run an internet business?<br> Are your various expenses (like Shopify & AdWords) disorganized?<br> <br>For the price of a cup of coffee, you can safely and securely store, view, and update your expenses on any device. <br>CrabLegs is <span style= "color:#6772e5;">the most simple, intuitive, & user-friendly</span> expense manager available.<br><br> Why leave the integriy of your finances up to chance? <br>Harness the power of CrabLegs!</p>
+              <a   style="background-color:#6772E5;color:#FFF;padding:8px 12px;border:0;border-radius:4px;font-size:1em;"
+              href="https://crablegs.herokuapp.com">Take CrabLegs For a Test Drive!</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--================ Hero sm Banner end =================-->
+
+    <!--================ Feature section start =================-->      
+    <section class="section-margin">
+      <div class="container">
+        <div class="section-intro pb-85px text-center">
+          <h2 class="section-intro__title">CrabLegs Features </h2>
+          <p class="section-intro__subtitle">A.K.A. 3 More Reasons To Love CrabLegs...</p>
+        </div>
+
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4">
+              <div class="card card-feature text-center text-lg-left mb-4 mb-lg-0">
+                <span class="card-feature__icon">
+                  <i class="ti-package"></i>
+                </span>
+                <h3 class="card-feature__title">Super Sleek</h3>
+                <p class="card-feature__subtitle">The CrabLegs design is absolutely clutter-free and user-intuitive.
+                  Desktop, laptop, phone, or tablet-CrabLegs has you covered. Why wait?
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="card card-feature text-center text-lg-left mb-4 mb-lg-0">
+                <span class="card-feature__icon">
+                  <i class="ti-mouse-alt"></i>
+                </span>
+                <h3 class="card-feature__title">Free Trial</h3>
+                <p class="card-feature__subtitle">Go ahead. Try CrabLegs for 7 days for free! We know you'll dig it!</p>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="card card-feature text-center text-lg-left mb-4 mb-lg-0">
+                <span class="card-feature__icon">
+                  <i class="ti-headphone-alt"></i>
+                </span>
+                <h3 class="card-feature__title">A+ Customer Support</h3>
+                <p class="card-feature__subtitle">The CrabLegs support team will happily respond to your queries in a timely manner.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--================ Feature section end =================-->      
+    
+    <!--================ about section start =================-->      
+    <section class="section-padding--small bg-magnolia">
+      <div class="container">
+        <div class="row no-gutters align-items-center">
+          <div class="col-md-5 mb-5 mb-md-0">
+            <div class="about__content">
+              <h2>Take Control Of Your Expenses!</h2>
+              <p>CrabLegs is the perfect solution for e-commerce marketers, internet businesses, and busy project managers, enabling complete control your expense archival process.</p>
+            </div>
+          </div>
+          <div class="col-md-7">
+            <div class="about__img">
+              <img class="img-fluid" src="img/home/about.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--================ about section end =================-->      
+    
+    <!--================ Offer section start =================-->      
+    <section class="section-margin" id="about">
+      <div class="container" >
+        <div class="section-intro pb-85px text-center">
+          <h2 class="section-intro__title" >What's So Great About CrabLegs?</h2>
+          <p class="section-intro__subtitle">In a nutshell, we think there are at least a handful of features that make CrabLegs worth talking about, including:</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6">
+
+            <div class="row offer-single-wrapper">
+              <div class="col-lg-6 offer-single">
+                <div class="card offer-single__content text-center">
+                  <span class="offer-single__icon">
+                    <i class="ti-pencil-alt"></i>
+                  </span>
+                  <h4>Write Anywhere</h4>
+                  <p>Add expenses on the fly. Desktop, Laptop or Mobile we've got you covered.</p>
+                </div>
+              </div>
+              
+              <div class="col-lg-6 offer-single">
+                <div class="card offer-single__content text-center">
+                  <span class="offer-single__icon">
+                    <i class="ti-ruler-pencil"></i>
+                  </span>
+                  <h4>Discover Spending Risks Instantly.</h4>
+                  <p>Quickly assess and analyze your financial output before starting new ventures.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="row offer-single-wrapper">
+              <div class="col-lg-6 offer-single">
+                <div class="card offer-single__content text-center">
+                  <span class="offer-single__icon">
+                    <i class="ti-cut"></i>
+                  </span>
+                  <h4>Easy Editing</h4>
+                  <p>Super simple editing workflow makes the deletion and addition of your expenses crystal clear. </p>
+                </div>
+              </div>
+              
+              <div class="col-lg-6 offer-single">
+                <div class="card offer-single__content text-center">
+                  <span class="offer-single__icon">
+                    <i class="ti-lock"></i>
+                  </span>
+                  <h4>Secure Database</h4>
+                  <p>CrabLegs uses the renowned Firebase platform for it's back end, and the rock-solid Stripe payment system for billing</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-lg-6">
+            <div class="offer-single__img">
+              <img class="img-fluid" src="img/home/solution.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--================ Offer section end =================-->      
+
+    <!--================ Solution section start =================-->      
+    <section class="section-padding--small bg-magnolia">
+      <div class="container">
+        <div class="row align-items-center pt-xl-3 pb-xl-5">
+          <div class="col-lg-6">
+            <div class="solution__img text-center text-lg-left mb-4 mb-lg-0">
+              <img class="img-fluid" src="img/home/offer.png" width= "518px" alt="">
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="solution__content">
+              <h2>Still Using Sticky Notes For Your Business Or Project Data?</h2>
+              <p>Let's put the days of scribbling your costs on the back of wrinkled recipts behind you. CrabLegs is here to help you redefine your position in the business
+		    world. One expense at a time.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--================ Solution section end =================-->      
+
+    <!--================ Pricing section start =================-->      
+    <section class="section-margin" id="pricing">
+      <div class="container" >
+        <div class="section-intro pb-85px text-center">
+          <h2 class="section-intro__title">Pricing</h2>
+          <p class="section-intro__subtitle">Our pricing model is simple & affordable enough for ANY budget! Try us FREE for 7 days!</p>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6 col-lg-6 mb-6 mb-lg-0">
+            <div class="card text-center card-pricing">
+              <div class="card-pricing__header">
+                <h4>Free Trial</h4>
+                <p>Try CrabLegs for 7 days free!</p>
+                <h1 class="card-pricing__price"><span>$</span>0</h1>
+              </div>
+              <ul class="card-pricing__list">
+	       <li><i class="ti-check"></i>Give CrabLegs a test run!</li>
+	      <li><i class="ti-check"></i>No Risk!</li>
+		      	       <li><i class="ti-check"></i>Cancel Anytime.</li>
+             <li><i class="ti-check"></i>After 7 days we'll email you, verify your info, & begin the regular subscription. Easy!</li>
+            </ul>
+              
+            
+              <div class="card-pricing__footer">
+                <button class="button button-light"
+			id="checkout-button-plan_FpjQtRPHdKdbt5"
+                      role="link"
+                      >Try Now</button>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-md-6 col-lg-6 mb-6 mb-lg-0">
+            <div class="card text-center card-pricing">
+              <div class="card-pricing__header">
+                <h4>Regular Subscription</h4>
+		 <p>Only $5/month!</p>
+                <h1 class="card-pricing__price"><span>$</span>5.00</h1>
+              </div>
+               <ul class="card-pricing__list">
+                <li><i class="ti-check"></i>Safe payment with Stripe!</li>
+                <li><i class="ti-check"></i>Your data is secured by Firebase.</li>
+                <li><i class="ti-check"></i>Store unlimited expenses.</li>
+		 <li><i class="ti-check"></i>Perfect for internet businesses.</li>
+                <li><i class="ti-check"></i>Great for on-the-fly project cost management </li>
+                <li><i class="ti-check"></i>24/7 Support</li>
+		<li  style="color:red;"><i class="ti-check"></i>First Week Free</li>
+
+
+              </ul>
+              <div class="card-pricing__footer">
+                <button class="button button-light"
+			id="checkout-button-plan_FpjQtRPHdKdbt5"
+                      role="link"
+			>Subscribe</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--================ Pricing section end =================-->       
+
+    <!--================ Testimonial section start =================-->      
+    <section class="section-padding bg-magnolia" id="contact">
+      <div class="container">
+        <div class="section-intro pb-5 text-center">
+          <h2 class="section-intro__title">Crablegs Support</h2>
+          <p class="section-intro__subtitle">We're here to aid you with any questions or comments you may have regarding our product. For the fastest possible response, 
+		email is your best option.</p>
+		<p>
+		<h2>CrabLegs USA</h2>
+				<a href="mailto:crablegsusa@gmail.com"><h3>crablegsusa@gmail.com</h3></a>
+
+		</p>
+        </div>
+
+       
+    </section>
+    <!--================ Testimonial section end =================-->      
+
+
+    
+  </main>
+
+
+  <!-- ================ start footer Area ================= -->
+  <footer " style="background-color:grey; color:blue; padding 10px;">
+		
+			<div class="footer-bottom row align-items-center text-center text-lg-left">
+				<p class="footer-text m-0 col-lg-8 col-md-12">
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> CrabLegs-USA All Rights Reserved </a>
+</p>
+				
+			</div>
+		</div>
+	</footer>
+  <!-- ================ End footer Area =================== -->
+
+  <script>
+    (function() {
+      var stripe = Stripe('pk_live_jwc29tjMWW6oMrJQzSPf4LW3');
+    
+      var checkoutButton = document.getElementById('checkout-button-plan_FpjQtRPHdKdbt5');
+      checkoutButton.addEventListener('click', function () {
+        // When the customer clicks on the button, redirect
+        // them to Checkout.
+        stripe.redirectToCheckout({
+          items: [{plan: 'plan_FpjQtRPHdKdbt5', quantity: 1}],
+    
+          // Do not rely on the redirect to the successUrl for fulfilling
+          // purchases, customers may not always reach the success_url after
+          // a successful payment.
+          // Instead use one of the strategies described in
+          // https://stripe.com/docs/payments/checkout/fulfillment
+          successUrl: 'https://crablegs.herokuapp.com',
+      cancelUrl: 'https://crablegs.ga',
+
+        })
+        .then(function (result) {
+          if (result.error) {
+            // If `redirectToCheckout` fails due to a browser or network
+            // error, display the localized error message to your customer.
+            var displayError = document.getElementById('error-message');
+            displayError.textContent = result.error.message;
+          }
+        });
+      });
+    })();
+    </script>
+  <script src="vendors/jquery/jquery-3.2.1.min.js"></script>
+  <script src="vendors/bootstrap/bootstrap.bundle.min.js"></script>
+  <script src="vendors/owl-carousel/owl.carousel.min.js"></script>
+  <script src="js/jquery.ajaxchimp.min.js"></script>
+  <script src="js/mail-script.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
